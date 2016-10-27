@@ -1,0 +1,116 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: "Abhaya Libre", serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.masthead {
+  background-color: #423ca3;
+}
+
+header {
+  background-color: #423ca3;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+}
+
+i {
+  display: block;
+}
+
+ul {
+  display: inline-block;
+  text-align: center;
+}
+
+li {
+  background-color: #15114c;
+  border-radius: 10px;
+}
+
+nav li {
+  display: inline-block;
+  color: #fff;
+}
+
+.btn {
+  color: white;
+  border-radius: 5px;
+  background-color: #15114c;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #15114c;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #15114c;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  nav {
+    float: right;
+  }
+
+  header h1 {
+    text-align: left;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  nav {
+    float: right;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  nav {
+    float: right;
+  }
+
+}
